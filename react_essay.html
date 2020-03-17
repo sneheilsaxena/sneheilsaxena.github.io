@@ -33,71 +33,70 @@
                     <ul id="navbar2">
                         <li class="navbar_items"><a class="navbar_links" href="index.html" style="font-size: large">Home</a></li>
                         <li class="navbar_items"><a class="navbar_links" href="inspiration.html" style="font-size: large">Personal Philosophy</a></li>
-                        <li class="navbar_items"><a class="navbar_links" href="blog.html" style="font-size: large">Blog</a></li>
+                        <li class="navbar_items"><a class="navbar_links" href="react_essay.html" style="font-size: large">Blog</a></li>
                         <li class="navbar_items"><a class="navbar_links" href="links.html" style="font-size: large">Links</a></li>
                     </ul>
+                    <p><a href="blog.html">Go Back</a></p>
                     <p style="text-align:center">
-                        <name>Welcome to my technical blog!</name>
+                        <name>"Why React is Awesome": A Response & Critique</name>
                     </p>
-                    <p class="article_text">As I learn more things, I find it useful to pause, reflect on, and analyze the experiences I'm going through. I may not know everything (spoiler: no one does), but here are my attempts to explore the topics I do know a bit about:</p>
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Posts:</heading>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
+                    <p class="article_text">
+                        I've used React in a variety of settings, both personal and professional, and therefore I've naturally watched a lot of tutorials and explanation videos about it. Towards the beginning of my journey with it, I came across this video:
+                    </p>
 
-                            <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
-                                <td style="padding:20px;width:20%;vertical-align:middle">
-                                    <div class="one">
-                                        <div class="two" id='hcp_logo'><img src='images/react_final.png'></div>
-                                        <img src='images/react_final.png'>
-                                    </div>
+                    <p style="text-align:center">
+                        <iframe width="900" height="506" src="https://www.youtube.com/embed?v=SH2tck0pHWI"></iframe>
+                    </p>
 
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle><a href src="react_essay.html">"Why React is Awesome": A Response & Critique</a></papertitle>
-                                    </a>
-                                    <br>
-                                    <p></p>
-                                    <p>My response to a video talking about the benefits of React. Look, it is great for devs but maaaaybe not so great for users. We dissect this example and do a deep dive.
-                                    </p>
-                                </td>
-                            </tr>
+                    <p class="article_text">
+                        As a beginner at not just using React but just client side web development in general, the video made me feel very excited to use React for projects! Now that I have more experience with it however, I want to go back and watch the video to see how my
+                        opinions about how it presents things has changed.
+                    </p>
 
-                        </tbody>
-                    </table>
+                    <p class="article_text">
+                        The video starts with a description of React - what it is, where it came from, what it does, and most importantly, what it doesn't do. Chris mentions that it's
+                    </p>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
+                    <p class="article_text">
+                        Chris mentions that it’s primarily a client-side JavaScript library made by developers at Facebook and that using it for server-side functionality is uncommon, though technically possible.
 
-                            <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
-                                <td style="padding:20px;width:20%;vertical-align:middle">
-                                    <div class="one">
-                                        <div class="two" id='reliance_logo'><img src='images/prime.jpg'></div>
-                                        <img src='images/prime.jpg'>
-                                    </div>
+                    </p>
+                    <p class="article_text">
 
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle><a href src="aks_essay.html">The First Deterministic Polynomial Time Primality Test: AKS</a></papertitle>
-                                    </a>
-                                    <br>
-                                    <p></p>
-                                    <p>AKS - the first "fast" algorithm to determine if a number is prime. We go into the specifics of the theory behind it and code up an example in Python to see it in practice.</p>
-                                </td>
-                            </tr>
+                        Chris makes an argument for why the library will be adopted even more as time goes on due to changes in its licensing no longer requiring developers to stop using it in case they’re in a lawsuit with Facebook. So far, the arguments are presented well
+                        – some time has passed since the video was uploaded and looking at the data, we can indeed see that React usage has gone up exponentially.
+                        <br> <br><img src="images/react_stats.jpg"></img><br> In fact, I have observed this anecdotally too from interviewing with different companies and noticing how many of them either already use React or are transitioning to it. Chris
+                        says that Angular’s “bi-directional” flow is harder to understand and implement compared to React’s, and in my opinion that is a bit of an apples-oranges comparison. As Mosh writes <a class="article_text" href src=“ https://programmingwithmosh.com/react/react-vs-angular/”>here</a>,
+                        Angular is a full fledged framework for web development with stronger opinions about how the application should be structures as opposed to React, which in the majority of cases is just focused on designing what the user sees.
+                        Coupled with his mention of MVC architecture in the intro, I would have liked to see this point being made here as it provides more clarity for beginners, who I presume are the primary audience for this video. Slight cherrypicking,
+                        but one of the comments on the video even asks if they need to learn HTML and CSS before using React, which in layman’s terms is like asking to do acrobatics before learning how to walk.
+                    </p>
+                    <p class="article_text">
 
-                        </tbody>
-                    </table>
+                        I do find the description of how React works and how it’s a “decorative” framework accurate based on my and my past coworkers’ experience. Once again however, during the comparison with Vue and Angular I would have appreciated the framing of the narrative
+                        to not just be “React is better and easier to use than Angular for front-end development” and be presented as “React is only focused on front-end, and therefore for those looking to do just front-end React is a better choice than
+                        trying to use Angular which is more complex since it does more”.
 
-                    <p class="article_text">I encourage you to read and respond! I'd love to hear your thoughts - email me at sneheilsaxena@gmail.com</p>
+
+                    </p>
+                    <p class="article_text">
+
+
+                    </p>
+                    <p class="article_text">
+
+
+                    </p>
+                    <p class="article_text">
+
+
+                    </p>
+
+
+
+
+                    <p style="font-size: large;">Let me know what you think! Email me at sneheilsaxena@gmail.com - I'd love to chat more about this.</p>
                 </td>
             </tr>
     </table>
